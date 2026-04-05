@@ -49,7 +49,7 @@
     "rules": [
       {"action": "sniff", "sniffer": ["http", "tls", "quic", "dns"]},
       {"inbound": "dns-in", "action": "hijack-dns"},
-      {"ip_is_private": true, "outbound": "🎯 全球直连"},
+      {"ip_is_private": true, "outbound":"🇭🇰 香港手动","🇯🇵 日本手动","🇸🇬 狮城手动","🇺🇲 美国手动","♻️ 自动选择","🐸 手动选择","♻️ 自动选择"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
       {"clash_mode": "global", "outbound": "GLOBAL"},
       {"rule_set": "geosite-ai", "outbound": "🧠 AI"},
